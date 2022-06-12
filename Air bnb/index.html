@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist\css\bootstrap.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air bnb Clone</title>
+</head>
+<body>
+    <!-- START OF HEADER SECTION -->
+
+    <header id="headersection">
+        <nav>
+            <div class="logo">
+                <img src="images/Airbnb-Logo.png">
+            </div>
+            <div class="navsect1">
+                <ul>
+                    <li>Anywhere |</li>
+                    <li>Any week |</li>
+                    <li>Any guests</li>
+                </ul>
+                <img src = 'images/search.png'>
+            </div>
+            <div class="globeandprofile">
+                <div class="globeimg">
+                    <p>Become a Host</p>
+                    <img src = 'images/earth-globe.png'>
+                </div>
+                <div class="profile">
+                    <img src='images/menu.png'>
+                    <img src="images/user.png">
+                    <div class="dot"></div>
+                    <div class="innerprofilemenu" id="innerprofilemenu2">
+                        <ul>
+                            <li>Sign up</li>
+                            <li>Login</li>
+                            <hr>
+                            <li>Host your home</li>
+                            <li>Host an experience</li>
+                            <li>Help</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </nav>
+        <hr>
+
+<!-- END OF FIRST NAVIGATION BAR  -->
+
+<!-- START OF SECOND NAVIGATION BAR WITH ICONS -->
+
+<div class = 'iconsgeneralmain'>
+    <div class="leftarrow">
+        <img src="images/left-arrow.png" onclick="prev()">
+    </div>
+    <div class="iconsgeneral">
+        <div class="iconssection">
+            
+            <div class="scrollicons1">
+                <div class="imgslide">
+                    <img src="images/pic1.jpg">
+                    <p>Design</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic2.jpg">
+                    <p>Island</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic3.jpg">
+                    <p>Beach</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic4.jpg">
+                    <p>Amazing pools</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic5.jpg">
+                    <p>OMG!</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic2.jpg">
+                    <p>Arctic</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic3.jpg">
+                    <p>Shared homes</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic4.jpg">
+                    <p>National parks</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic5.jpg">
+                    <p>Bed & breakfast</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic1.jpg">
+                    <p>Caves</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic2.jpg">
+                    <p>Surfing</p>
+                </div>
+            </div>
+            <!-- EXTRA-->
+    
+    
+            <div class="scrollicons2">
+                <div class="imgslide">
+                    <img src="images/pic1.jpg">
+                    <p>Design</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic2.jpg">
+                    <p>Island</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic3.jpg">
+                    <p>Beach</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic4.jpg">
+                    <p>Amazing pools</p>
+                </div>
+                <div>
+                    <img src="images/pic5.jpg">
+                    <p>OMG!</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic1.jpg">
+                    <p>Arctic</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic2.jpg">
+                    <p>Shared homes</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic3.jpg">
+                    <p>National parks</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic4.jpg">
+                    <p>Bed & breakfast</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic5.jpg">
+                    <p>Caves</p>
+                </div>
+                <div class="imgslide">
+                    <img src="images/pic1.jpg">
+                    <p>Surfing</p>
+                </div>
+            </div>
+         
+        </div>
+        
+            
+    </div>
+    <div class="iconsrightsection">
+            <div class="rightarrow">
+                <img src="images/right-arrow.png" onclick="next()">
+            </div>
+    
+            <div class="filtersection">
+                <img src="images/filter.png">
+                <p>Filter</p>
+            </div>
+        </div>
+</div>
+
+    
+
+
+<!-- END OF SECOND NAVIGATION BAR WITH ICONS -->
+    </header>
+
+    <!-- END OF HEADER SECTION -->
+
+    <!-- START OF BODY SECTION -->
+<div class="sectionbodystart">
+    <!-- START OF CAROUSEL SECTION ONE -->
+        <div class="section">
+
+            <!-- FIRST IMAGE BOX -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow1" onclick="fwrd()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow12" onclick="fwrd12()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    
+                    <div class="carouselimage">
+                        
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic5.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+
+            <!-- END OF FIRST BOX SECTION -->
+            <!-- START OF SECOND BOX SECTION -->
+
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow2" onclick="fwrd2()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow22" onclick="rev22()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="carouselimage2">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic4.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+
+            <!-- END OF SECOND BOX SECTION -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow3" onclick="fwrd3()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow33" onclick="rev3()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="rightarrowimg">
+                        <!-- <img src="images/right-arrow.png" onclick=""> -->
+                    </div>
+                    <div class="carouselimage3">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic3.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic1.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+            <!-- END OF THIRD BOX SECTION -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow4" onclick="fwrd4()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow44" onclick="rev4()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="rightarrowimg">
+                        <!-- <img src="images/right-arrow.png" onclick=""> -->
+                    </div>
+                    <div class="carouselimage4" id="imgarrow4" onclick="fwrd4()">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic1.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+
+                <!-- END OF FOURTH BOX SECTION -->
+            </div>
+        </div>
+    <!-- END OF CAROUSEL SECTION ONE -->
+
+
+    <!-- START OF CAROUSEL SECTION TWO -->
+        <div class="section">
+
+            <!-- FIRST IMAGE BOX -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow1" onclick="fwrd()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow12" onclick="fwrd12()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    
+                    <div class="carouselimage">
+                        
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic5.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+
+            <!-- END OF FIRST BOX SECTION -->
+            <!-- START OF SECOND BOX SECTION -->
+
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow2" onclick="fwrd2()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow22" onclick="rev22()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="carouselimage2">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic4.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+
+            <!-- END OF SECOND BOX SECTION -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow3" onclick="fwrd3()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow33" onclick="rev3()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="rightarrowimg">
+                        <!-- <img src="images/right-arrow.png" onclick=""> -->
+                    </div>
+                    <div class="carouselimage3">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic3.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic1.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+            <!-- END OF THIRD BOX SECTION -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow4" onclick="fwrd4()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow44" onclick="rev4()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="rightarrowimg">
+                        <!-- <img src="images/right-arrow.png" onclick=""> -->
+                    </div>
+                    <div class="carouselimage4" id="imgarrow4" onclick="fwrd4()">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic1.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+
+                <!-- END OF FOURTH BOX SECTION -->
+            </div>
+        </div>
+    <!-- END OF CAROUSEL SECTION TWO -->
+
+
+    <!-- START OF CAROUSEL SECTION THREE -->
+        <div class="section">
+
+            <!-- FIRST IMAGE BOX -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow1" onclick="fwrd()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow12" onclick="fwrd12()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    
+                    <div class="carouselimage">
+                        
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic5.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+
+            <!-- END OF FIRST BOX SECTION -->
+            <!-- START OF SECOND BOX SECTION -->
+
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow2" onclick="fwrd2()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow22" onclick="rev22()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="carouselimage2">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic4.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+
+            <!-- END OF SECOND BOX SECTION -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow3" onclick="fwrd3()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow33" onclick="rev3()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="rightarrowimg">
+                        <!-- <img src="images/right-arrow.png" onclick=""> -->
+                    </div>
+                    <div class="carouselimage3">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic3.webp'>
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic1.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+            </div>
+            <!-- END OF THIRD BOX SECTION -->
+            <div class="choicesection">
+                <ul>
+                    <li>
+                        <img src="images/right-arrow.png" id="imgarrow4" onclick="fwrd4()">
+                    </li>
+                    <li>
+                        <img src="images/left-arrow.png" id="imgarrow44" onclick="rev4()">
+                    </li>
+                    <li>
+                        <img src="images/heart.png">
+                    </li>
+                </ul>
+                <div class="carouselimagesmain">
+                    <div class="rightarrowimg">
+                        <!-- <img src="images/right-arrow.png" onclick=""> -->
+                    </div>
+                    <div class="carouselimage4" id="imgarrow4" onclick="fwrd4()">
+                        <!-- IMAGES GOES IN HERE -->
+                        <img src='carouselimages/pic2.webp'>
+                        <img src='carouselimages/pic1.webp'>
+                        <img src='carouselimages/pic3.webp'>
+                    </div>
+                </div>
+                
+                <div>
+                    <!-- ALL TEXT ATTACHED TO TEXT GOES IN HERE -->
+                    
+                    <div class="star">
+                        <h2>Vestervig, Denmark</h2>
+                        <h2>New</h2>
+                        <img src='images/star.png'>
+                    </div>
+                    <p>Designed by Soren Sarup, PURAS...</p>
+                    <P>Apr 1-8</P>
+                    <p><strong>$600 </strong>night</p>
+                </div>
+
+                <!-- END OF FOURTH BOX SECTION -->
+            </div>
+        </div>
+    <!-- END OF CAROUSEL SECTION THREE -->
+
+</div>
+<!-- END OF BODY SECTION -->
+
+<script src="main.js"></script>
+<!-- <script src="bootstrap-5.2.0-beta1-dist\js\bootstrap.bundle.js"></script> -->
+</body>
+
+
+<div class="mapsection" >
+    <h2>Show Map</h2>
+    <img src='images/map.png'>
+</div>
+<footer>
+    <div class="footersect1">
+        <p> Airbnb, Inc. Clone By Isaac Franklin </p>
+        <p> Privacy</p>
+        <p> Terms</p>
+        <p> Sitemap</p>
+        <p> Destinations</p>
+    </div>
+    <div class="footersect2">
+        <div class="footersect3">
+            <img src="images/earth-globe.png">
+            <p>English(US)</p>
+        </div>
+        <span><p>$ USD</p></span>
+        
+        <div class="footersect3">
+            <p>Support and resources</p>
+            <img src="images/arrow-up.png">
+        </div>
+        
+
+    </div>
+</footer>
+</html>
